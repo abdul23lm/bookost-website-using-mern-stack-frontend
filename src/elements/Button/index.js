@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import propTypes from "prop-types";
 
-export default function Button(props) {
+export default function GamepadButton(props) {
   const className = [props.className];
   if (props.isPrimary) className.push("btn-primary");
   if (props.isLarge) className.push("btn-lg");
@@ -11,21 +11,8 @@ export default function Button(props) {
   if (props.hasShadow) className.push("btn-shadow");
 
   const onClick = () => {
-    if (props.onClick) props.onClick();
+    if (props.onclick) props.onClick();
   };
-
-  if (props.isDisabled || props.isLoading)
-    if (props.isDisabled) className.push("disabled");
-  return (
-    <span className={className.join(" ")} style={props.style}>
-          {
-              props.isLoading ? <>
-                  <span className="spinner-border spinner-border-sm mx-5"></span>
-              <span className="sr-only">Loading...</span>
-              </>
-      }
-    </span>
-  );
 
   if (props.type === "link") {
     if (props.isExternal) {
@@ -44,7 +31,6 @@ export default function Button(props) {
       return (
         <link
           to={props.href}
-          href={props.href}
           className={className.join(" ")}
           style={props.style}
           onClick={onClick}
@@ -54,16 +40,7 @@ export default function Button(props) {
       );
     }
   }
-  return (
-    <button
-      className={className.join(" ")}
-      style={props.style}
-      onClick={onClick}
-    >
-      {" "}
-      {props.children}
-    </button>
-  );
+  return <div> </div>;
 }
 
 Button.propTypes = {
@@ -77,6 +54,5 @@ Button.propTypes = {
   isSmall: propTypes.bool,
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
-  isExternal: propTypes.bool,
   hasShadow: propTypes.bool,
 };
