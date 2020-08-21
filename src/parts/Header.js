@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "elements/Button";
-import BrandIcon from "elements/parts/IconText";
+import BrandIcon from "parts/IconText";
 
 export default function Header(props) {
   const getNavLinkClass = (path) => {
@@ -14,25 +14,25 @@ export default function Header(props) {
           <BrandIcon />
           <div classname="collapse nabar-collapse">
             <ul className="navbar-nav ml-auto">
-              <li className={'nav-item$(getNavLinkClass("/"))'}>
+              <li className={`nav-item$(getNavLinkClass("/"))`}>
                 <Button className="nav-link" type="link" href="/">
                   Home
                 </Button>
               </li>
 
-              <li className={'nav-item$(getNavLinkClass("/"))'}>
+              <li className={`nav-item$(getNavLinkClass("/"))`}>
                 <Button className="nav-link" type="link" href="/browse-by">
                   Cari Kostan berdasarkan Kategori
                 </Button>
               </li>
 
-              <li className={'nav-item$(getNavLinkClass("/"))'}>
+              <li className={`nav-item$(getNavLinkClass("/"))`}>
                 <Button className="nav-link" type="link" href="/testimonials">
                   Testimonial
                 </Button>
               </li>
 
-              <li className={'nav-item$(getNavLinkClass("/"))'}>
+              <li className={`nav-item$(getNavLinkClass("/"))`}>
                 <Button className="nav-link" type="link" href="/agens">
                   Agen
                 </Button>
