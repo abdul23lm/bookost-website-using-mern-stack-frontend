@@ -48,6 +48,10 @@
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: $primary;
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
 }
 
 header {
