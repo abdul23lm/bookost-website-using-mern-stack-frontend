@@ -7,6 +7,8 @@ import IconCities from 'assets/images/icons/ic-cities.svg'
 import IconTreasure from 'assets/images/icons/ic-treasure.svg'
 
 import Button from 'elements/Button'
+
+import formatNumber from 'utils/formatNumber'
 export default function Hero(props) {
 
     function showMostPicked() {
@@ -35,7 +37,7 @@ export default function Hero(props) {
                         <div className="col-auto" style={{ marginRight: 35}}>
                             <img width="36" height="36" src={IconClients} alt={`${props.data.clients} Clients`} />
                             <h6 className="mt-3">
-                                {props.data.clients} <span className="text-gray-00 font-weight-light">
+                                {formatNumber(props.data.clients)} <span className="text-gray-00 font-weight-light">
                                     Klien
                                 </span>
                             </h6>
@@ -43,7 +45,7 @@ export default function Hero(props) {
                             <div className="col-auto" style={{ marginRight: 35}}>
                             <img width="36" height="36" src={IconCities} alt={`${props.data.cities} Cities`} />
                             <h6 className="mt-3">
-                                {props.data.cities} <span className="text-gray-00 font-weight-light">
+                                {formatNumber(props.data.cities)} <span className="text-gray-00 font-weight-light">
                                     Kota
                                 </span>
                             </h6>
@@ -51,7 +53,7 @@ export default function Hero(props) {
                             <div className="col-auto">
                             <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasure} Treasure`} />
                             <h6 className="mt-3">
-                                {props.data.treasure} <span className="text-gray-00 font-weight-light">
+                                {formatNumber(props.data.treasure)} <span className="text-gray-00 font-weight-light">
                                     Kostan
                                 </span>
                             </h6>
