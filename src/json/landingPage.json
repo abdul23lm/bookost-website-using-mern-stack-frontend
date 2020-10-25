@@ -7,53 +7,53 @@
   "mostPicked": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Cahaya Inn Pulomas",
+      "type": "Boarding House",
       "imageUrl": "/images/image-mostpicked-1.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "price": "1.500.000",
+      "unit": "bulan"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "The People House",
-      "type": "Hotel",
+      "name": "Kost Intan Pasar Minggu",
+      "type": "Boarding House",
       "imageUrl": "/images/image-mostpicked-2.jpg",
       "country": "Indonesia",
-      "city": "Bogor",
+      "city": "Jakarta",
       "price": "52",
-      "unit": "night"
+      "unit": "bulan"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "House Tour",
-      "type": "Rumah",
+      "name": "Kost Ibu Siska Duren Tiga",
+      "type": "Boarding House",
       "imageUrl": "/images/image-mostpicked-3.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
+      "country": "Indonesia",
+      "city": "Jakarta",
       "price": "80",
-      "unit": "night"
+      "unit": "bulan"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Rumah Kost Perikanan Kalibata",
+      "type": "Boarding House",
       "imageUrl": "/images/image-mostpicked-4.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
+      "country": "Indonesia",
+      "city": "Jakarta",
       "price": "80",
-      "unit": "night"
+      "unit": "bulan"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Kostan H. Mudji Pancoran",
+      "type": "Boarding House",
       "imageUrl": "/images/image-mostpicked-5.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
+      "country": "Indonesia",
+      "city": "Jakarta",
       "price": "80",
-      "unit": "night"
+      "unit": "bulan"
     }
   ],
   "categories": [
