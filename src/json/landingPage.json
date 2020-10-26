@@ -175,10 +175,10 @@
   "testimonial": {
     "_id": "asd1293uasdads1",
     "imageUrl": "/images/testimonial-landingpages.jpg",
-    "name": "Happy Family",
+    "name": "Testimonial Klien",
     "rate": 4.55,
-    "content": "What a great trip with my family and I should try again next time soon ...",
-    "familyName": "Angga",
-    "familyOccupation": "Product Designer"
+    "content": "Pengalaman yang luar biasa ketika saya kesulitan menemukan kostan, BooKost solusinya ...",
+    "familyName": "Abdul",
+    "familyOccupation": "Frontend Developer"
   }
 }
