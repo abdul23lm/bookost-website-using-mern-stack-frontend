@@ -53,7 +53,7 @@ export default function Hero(props) {
                             <div className="col-auto">
                             <img width="36" height="36" src={IconBoardingHouse} alt={`${props.data.boardinghouse} Boarding House`} />
                             <h6 className="mt-3">
-                                {formatNumber(props.data.boardinghouse)} <span className="text-gray-00 font-weight-light">
+                                {formatNumber(props.data.boardingHouse)} <span className="text-gray-00 font-weight-light">
                                     Kostan
                                 </span>
                             </h6>
