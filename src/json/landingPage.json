@@ -59,114 +59,114 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Kostan dengan tempat parkir",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Pak Rangga",
+          "imageUrl": "/images/image-category1-1.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Sultan Abu",
+          "imageUrl": "/images/image-category1-2.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Bu Marsinah",
+          "imageUrl": "/images/image-category1-3.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Pak Abdul",
+          "imageUrl": "/images/image-category1-4.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
+      "name": "Kostan dengan layanan internet",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Pak Sujai",
+          "imageUrl": "/images/image-category2-1.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Bu Uneh",
+          "imageUrl": "/images/image-category2-2.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Mercu",
+          "imageUrl": "/images/image-category2-3.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Bu Tina",
+          "imageUrl": "/images/image-category2-3.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "name": "Kostan dengan layanan internet",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Tendy",
+          "imageUrl": "/images/image-category3-1.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Abdullah",
+          "imageUrl": "/images/image-category3-2.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Sugoy",
+          "imageUrl": "/images/image-category3-3.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kostan Berkah",
+          "imageUrl": "/images/image-category3-4.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         }
       ]
