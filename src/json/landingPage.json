@@ -2,7 +2,7 @@
   "hero": {
     "clients": 24200,
     "cities": 42,
-    "treasure": 882
+    "boardingHouse": 882
   },
   "mostPicked": [
     {
@@ -22,7 +22,7 @@
       "imageUrl": "/images/image-mostpicked-2.jpg",
       "country": "Indonesia",
       "city": "Jakarta",
-      "price": "52",
+      "price": "2.000.000 ",
       "unit": "bulan"
     },
     {
@@ -32,7 +32,7 @@
       "imageUrl": "/images/image-mostpicked-3.jpg",
       "country": "Indonesia",
       "city": "Jakarta",
-      "price": "80",
+      "price": "1.450.000",
       "unit": "bulan"
     },
     {
@@ -42,7 +42,7 @@
       "imageUrl": "/images/image-mostpicked-4.jpg",
       "country": "Indonesia",
       "city": "Jakarta",
-      "price": "80",
+      "price": "1.600.000",
       "unit": "bulan"
     },
     {
@@ -52,7 +52,7 @@
       "imageUrl": "/images/image-mostpicked-5.jpg",
       "country": "Indonesia",
       "city": "Jakarta",
-      "price": "80",
+      "price": "1.200.000",
       "unit": "bulan"
     }
   ],

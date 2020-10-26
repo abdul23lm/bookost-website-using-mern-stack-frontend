@@ -4,7 +4,7 @@ import ImageHero from 'assets/images/img-hero.jpg'
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg'
 import IconClients from 'assets/images/icons/ic-clients.svg'
 import IconCities from 'assets/images/icons/ic-cities.svg'
-import IconTreasure from 'assets/images/icons/ic-treasure.svg'
+import IconBoardingHouse from 'assets/images/icons/ic-boardinghouse.svg'
 
 import Button from 'elements/Button'
 
@@ -51,9 +51,9 @@ export default function Hero(props) {
                             </h6>
                         </div>
                             <div className="col-auto">
-                            <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasure} Treasure`} />
+                            <img width="36" height="36" src={IconBoardingHouse} alt={`${props.data.boardinghouse} Boarding House`} />
                             <h6 className="mt-3">
-                                {formatNumber(props.data.treasure)} <span className="text-gray-00 font-weight-light">
+                                {formatNumber(props.data.boardinghouse)} <span className="text-gray-00 font-weight-light">
                                     Kostan
                                 </span>
                             </h6>
