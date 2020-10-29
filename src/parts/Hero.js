@@ -3,9 +3,7 @@ import Fade from "react-reveal/Fade";
 
 import ImageHero from 'assets/images/img-hero.jpg'
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg'
-import IconClients from 'assets/images/icons/ic-clients.svg'
-import IconCities from 'assets/images/icons/ic-cities.svg'
-import IconBoardingHouse from 'assets/images/icons/ic-boardinghouse.svg'
+
 
 import Button from 'elements/Button'
 
@@ -37,7 +35,7 @@ export default function Hero(props) {
 
                     <div className="row" style={{ marginTop: 80}}>
                         <div className="col-auto" style={{ marginRight: 35}}>
-                            <img width="36" height="36" src={IconClients} alt={`${props.data.clients} Clients`} />
+                            <img width="36" height="36" src="/assets/images/icons/ic-clients.svg" alt={`${props.data.clients} Clients`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.clients)} <span className="text-gray-00 font-weight-light">
                                     Klien
@@ -45,7 +43,7 @@ export default function Hero(props) {
                             </h6>
                         </div>
                             <div className="col-auto" style={{ marginRight: 35}}>
-                            <img width="36" height="36" src={IconCities} alt={`${props.data.cities} Cities`} />
+                            <img width="36" height="36" src="/assets/images/icons/ic-cities.svg" alt={`${props.data.cities} Cities`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-00 font-weight-light">
                                     Kota
@@ -53,7 +51,7 @@ export default function Hero(props) {
                             </h6>
                         </div>
                             <div className="col-auto">
-                            <img width="36" height="36" src={IconBoardingHouse} alt={`${props.data.boardinghouse} Boarding House`} />
+                            <img width="36" height="36" src="/assets/images/icons/ic-boardinghouse.svg" alt={`${props.data.boardinghouse} Boarding House`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.boardingHouse)} <span className="text-gray-00 font-weight-light">
                                     Kostan
