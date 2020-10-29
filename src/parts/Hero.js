@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 import Fade from "react-reveal/Fade";
 
-import ImageHero from 'assets/images/img-hero.jpg'
-import ImageHeroFrame from 'assets/images/img-hero-frame.jpg'
+import ImageHero from "assets/images/img-hero.jpg";
+import ImageHeroFrame from "assets/images/img-hero-frame.jpg";
 
 
-import Button from 'elements/Button'
+import Button from "elements/Button";
 
-import formatNumber from 'utils/formatNumber'
+import formatNumber from "utils/formatNumber";
 export default function Hero(props) {
 
     function showMostPicked() {
@@ -35,7 +35,7 @@ export default function Hero(props) {
 
                     <div className="row" style={{ marginTop: 80}}>
                         <div className="col-auto" style={{ marginRight: 35}}>
-                            <img width="36" height="36" src="/assets/images/icons/ic-clients.svg" alt={`${props.data.clients} Clients`} />
+                            <img width="36" height="36" src="/images/ic-clients.svg" alt={`${props.data.clients} Clients`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.clients)} <span className="text-gray-00 font-weight-light">
                                     Klien
@@ -43,7 +43,7 @@ export default function Hero(props) {
                             </h6>
                         </div>
                             <div className="col-auto" style={{ marginRight: 35}}>
-                            <img width="36" height="36" src="/assets/images/icons/ic-cities.svg" alt={`${props.data.cities} Cities`} />
+                            <img width="36" height="36" src="/images/ic-cities.svg" alt={`${props.data.cities} Cities`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-00 font-weight-light">
                                     Kota
@@ -51,7 +51,7 @@ export default function Hero(props) {
                             </h6>
                         </div>
                             <div className="col-auto">
-                            <img width="36" height="36" src="/assets/images/icons/ic-boardinghouse.svg" alt={`${props.data.boardinghouse} Boarding House`} />
+                            <img width="36" height="36" src="/images/ic-boardinghouse.svg" alt={`${props.data.boardinghouse} Boarding House`} />
                             <h6 className="mt-3">
                                 {formatNumber(props.data.boardingHouse)} <span className="text-gray-00 font-weight-light">
                                     Kostan

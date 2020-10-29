@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactHtmlParser from 'react-html-parser'
-import FeaturedImage from './FeaturedImage';
+import React from "react";
+import ReactHtmlParser from "react-html-parser";
+import FeaturedImage from "./FeaturedImage";
 
 export default function PageDetailDescription({ data }) {
     return (

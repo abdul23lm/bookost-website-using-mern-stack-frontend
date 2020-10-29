@@ -8,7 +8,7 @@ import ExampleInputNumber from "pages/ExampleInputNumber";
 import ExampleInputDate from "pages/ExampleInputDate";
 import ExampleBreadcrumb from "pages/ExampleBreadcrumb";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Router>
@@ -21,4 +21,3 @@ function App() {
     </div>
   );
 }
-export default App;
