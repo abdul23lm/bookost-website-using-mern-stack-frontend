@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 import Header from "parts/Header";
 import PageDetailTitle from "parts/PageDetailTitle";
@@ -35,9 +36,13 @@ export default class DetailsPage extends Component {
                 <section className="container">
                     <div className="row">
                         <div className="col-7 pr-5">
-                            <PageDetailDescription data={ItemDetails} ></PageDetailDescription>
+                        <Fade bottom>
+                        <PageDetailDescription data={ItemDetails} ></PageDetailDescription>
+                        </Fade>
                         </div>
+                        <Fade bottom>
                         <div className="col-5"><BookingForm itemDetails={ItemDetails}></BookingForm></div>
+                        </Fade>
                     </div>
                 </section>
                 <Categories data={ItemDetails.categories}></Categories>
