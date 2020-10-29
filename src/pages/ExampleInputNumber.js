@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import InputNumber from "elements/Form/InputNumber";
-export default class Example extends Component {
+export default class ExampleInputNumber extends Component {
   state = {
     value: "1"
   };

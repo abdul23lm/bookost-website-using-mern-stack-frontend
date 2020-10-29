@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "assets/scss/style.scss";
-import LandingPage from "pages/LandingPage";
-import Example from "pages/Example";
+// import LandingPage from "pages/LandingPage";
+// import ExampleInputNumber from "pages/ExampleInputNumber";
+import ExampleInputDate from "pages/ExampleInputDate";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Router>
         <Switch>
           {/* <Route path="/" component={LandingPage}/> */}
-          <Route path="/example" component={Example} />
+          {/* <Route path="/example-input-number" component={ExampleInputNumber} /> */}
+          <Route path="/example-input-date" component={ExampleInputDate} />
         </Switch>
       </Router>
     </div>
