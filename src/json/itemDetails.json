@@ -1,7 +1,7 @@
 {
   "_id": "asd1293uasdads1",
-  "name": "Village Angga",
-  "type": "Hotel",
+  "name": "Cahaya Inn Pulomas",
+  "type": "Boarding House",
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
@@ -17,7 +17,7 @@
     }
   ],
   "country": "Indonesia",
-  "city": "Bogor",
+  "city": "Jakarta",
   "price": "52",
   "unit": "night",
   "isPopular": true,
