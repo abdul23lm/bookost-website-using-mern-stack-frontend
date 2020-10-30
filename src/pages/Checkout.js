@@ -168,7 +168,8 @@ export default class Checkout extends Component {
                     isBlock
                     isPrimary
                     hasShadow
-                    href=""
+                    href="/"
+                    style={{ paddingTop: 10}}
                   >
                     Back to Home
                   </Button>
