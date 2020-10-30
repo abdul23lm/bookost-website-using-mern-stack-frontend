@@ -22,7 +22,7 @@
   "unit": "hari",
   "isPopular": true,
   "hasBackyard": true,
-  "description": "<p>Minimal techno is a minimalist subgenre of techno music. It ischaracterized by a stripped-down aesthetic that exploits the use ofrepetition and understated development. Minimal techno is thought tohave been originally developed in the early 1990s by Detroit-basedproducers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified theoriginal Detroit sound. Robert Hood has noted that he and Daniel Bellboth realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object orsystem or for the implementation of an activity or process, or theresult of that plan or specification in the form of a prototype, productor process. The national agency for design: enabling Singapore to usedesign for economic growth and to make lives better.</p>",
+  "description": "<p>Kost Cahaya Inn terletak di Jalan Batu Berlian No 40 Pulomas, Pulo Gadung, Jakarta Timur. Lokasi yang sangat strategis dimana berdekatan dengan kampus Universitas Jayabaya, lalu ada rumah sakit Omni dan masih banyak lagi</p> <p>Fasilitas yang didapatkan diantaranya: WiFi 100 Mbps2, WiFi MMC all Chanel + YouTube + Netflix, AC 1 PK + TV LCD + Android TV Box + Kasur Springbed, Lemari di dalam kamar, Meja Belajar di dalam kamar, Kamar mandi dalam full marmer granit + keran shower, Khusus Dapur di lantai 4 + Khitchen set, Anti banjir posisi dalem komplek, Khusus penghuni gratis ongkir makanan warkop cahaya inn, Untuk pakaian bisa Jemur sendiri di lantai 4, Bangunan baru 1 bulan ..masih fresh, Ada roof top buat nongkrong di lantai 4, Ada meja belajar dan bangku di lantai 4, Parkiran hanya bisa motor, Listrik token masing2 tiap kamar, untuk Pria dan Wanita</p>",
   "features": [
     {
       "_id": "asd1293uasdads1",
@@ -31,8 +31,8 @@
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Kloset Duduk",
-      "imageUrl": "/images/ic-toilet.svg"
+      "name": "Lemari",
+      "imageUrl": "/images/ic-cupboard.svg"
     },
     {
       "_id": "asd1293uasdads1",
@@ -57,7 +57,7 @@
     {
       "_id": "asd1293uasdads1",
       "name": "Kamera CCTV",
-      "imageUrl": "/images/ic-treasure.svg"
+      "imageUrl": "/images/ic-cctv.svg"
     },
     {
       "_id": "asd1293uasdads1",
@@ -98,7 +98,7 @@
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "Kampu UNSIKA",
+          "name": "Universitas Jayabaya",
           "imageUrl": "/images/treasure-1.jpg",
           "country": "Indonesia",
           "city": "Jakarta",
@@ -106,7 +106,7 @@
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "KCP Mall",
+          "name": "Rumah Sakit OMNI",
           "imageUrl": "/images/treasure-2.jpg",
           "country": "Indonesia",
           "city": "Jakarta",
@@ -114,7 +114,7 @@
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Gramedia",
+          "name": "Taman Mini Indonesia Indah",
           "imageUrl": "/images/treasure-3.jpg",
           "country": "Indonesia",
           "city": "Jakarta",
@@ -122,7 +122,7 @@
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "MCD Galuh Mas",
+          "name": "Vnesia Mall",
           "imageUrl": "/images/treasure-4.jpg",
           "country": "Indonesia",
           "city": "Jakarta",
