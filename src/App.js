@@ -8,6 +8,7 @@ import Checkout from "pages/Checkout";
 import ExampleInputNumber from "pages/ExampleInputNumber";
 import ExampleInputDate from "pages/ExampleInputDate";
 import ExampleBreadcrumb from "pages/ExampleBreadcrumb";
+import NotFound from "pages/404";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/example-input-number" component={ExampleInputNumber} />
           <Route path="/example-input-date" component={ExampleInputDate} />
           <Route path="/example-breadcrumb" component={ExampleBreadcrumb} />
+          <Route path="*" component={NotFound} />
       </Router>
     </div>
   );
