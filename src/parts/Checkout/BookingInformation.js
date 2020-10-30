@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-import { InputText } from "elements/Form";
+import InputText from "elements/Form/InputText";
 
 export default function BookingInformation(props) {
   const { data, ItemDetails, checkout } = props;
@@ -23,7 +23,7 @@ export default function BookingInformation(props) {
                 <div className="row align-items-center">
                   <div className="col">
                     <div className="meta-wrapper">
-                      <h5>{ItemDetails.title}</h5>
+                      <h5>{ItemDetails.name}</h5>
                       <span className="text-gray-500">
                         {ItemDetails.city}, {ItemDetails.country}
                       </span>
@@ -31,10 +31,10 @@ export default function BookingInformation(props) {
                   </div>
                   <div className="col-auto">
                     <span>
-                      Rp. {+checkout.duration * ItemDetails.price}
+                      ${+checkout.duration * ItemDetails.price} USD
                       <span className="text-gray-500"> per </span>
                       {checkout.duration} {ItemDetails.unit}
-                      {+checkout.duration > 1 ? "s" : ""}
+                      {/* {+checkout.duration > 1 ? "s" : ""} */}
                     </span>
                   </div>
                 </div>
