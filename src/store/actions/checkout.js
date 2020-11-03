@@ -1,4 +1,5 @@
 import { CHECKOUT_BOOKING } from "../types";
+// import axios from "axios";
 
 export const checkoutBooking = (payload) => (dispatch) => {
   dispatch({
@@ -6,3 +7,9 @@ export const checkoutBooking = (payload) => (dispatch) => {
     payload: payload,
   });
 };
+
+// export const submitBooking = (payload) => () => {
+//   return axios.post(`/booking-page`, payload, {
+//     headers: { contentType: "multipart/form-data" },
+//   });
+// };
