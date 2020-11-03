@@ -22,12 +22,11 @@ export default function Hero(props) {
             <div className="row align-items-center">
                 <div className="col-auto pr-5" style={{ width: 530}}>
                     <h1 className="font-weight-bold line-height-1 mb-3">
-                        Gapailah Mimpimu,<br />
+                        Gapailah Mimpi,<br />
                         bersama Kost Impianmu
                     </h1>
                     <p className="mb-4 font-weight-light text-gray-500 w-75" style={{ lineHeight: "170%"}}>
-                        Kami menyediakan apa yang Anda butuhkan dalam menikmati 
-                        kehidupan karir Anda.
+                        Penyedia tempat tinggal profesional, modern, dan terpercaya sebagai penunjang kesuksesan karir Anda.
                     </p>
                     <Button className="btn px-5" hasShadow isPrimary onClick={showMostPicked}>
                         Temukan kostan Impianmu

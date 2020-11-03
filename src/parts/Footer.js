@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="col">
                         <IconText />
                         <p className="brand-tagline">
-                            Gapailah mimpimu bersama kost impianmu.
+                            Gapailah mimpi bersama kost impianmu.
                         </p>
                     </div>
                     <div className="col-2 mr-5">
