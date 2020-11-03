@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 import propTypes from "prop-types";
 
@@ -8,7 +8,7 @@ import InputDate from "elements/Form/InputDate";
 import InputNumber from "elements/Form/InputNumber";
 // import { InputNumber, InputDate } from "elements/Form";
 
-export default class BookingForm extends Component {
+class BookingForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -95,7 +95,7 @@ export default class BookingForm extends Component {
 
         <label htmlFor="duration">Berapa lama kamu akan tinggal?</label>
         <InputNumber
-          max={1000}
+          max={30}
           suffix={" day"}
           isSuffixPlural
           onChange={this.updateData}
@@ -125,9 +125,7 @@ export default class BookingForm extends Component {
           hasShadow
           isPrimary
           isBlock
-          type="link"
-          style={{paddingTop: 10}}
-          href={`/checkout`}
+          onClick={this.startBooking}
         >
           Pesan Sekarang
         </Button>
@@ -141,4 +139,4 @@ BookingForm.propTypes = {
   startBooking: propTypes.func,
 };
 
-// export default withRouter(BookingForm);
+export default withRouter(BookingForm);
