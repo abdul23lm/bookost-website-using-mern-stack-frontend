@@ -31,7 +31,6 @@ class LandingPage extends Component {
 
     if (!page.hasOwnProperty("landingPage")) return null;
 
-    console.log(page);
 
     return (
       <>

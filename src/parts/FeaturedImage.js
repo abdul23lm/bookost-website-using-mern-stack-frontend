@@ -15,7 +15,8 @@ export default function FeaturedImage({ data}) {
                                 <Fade bottom>
                                 <div className="card h-100">
                                     <figure className="img-wrapper">
-                                        <img src={item.url} alt={item._id} className="img-cover" />
+                                        <img src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                                            alt={item._id} className="img-cover" />
                                     </figure>
                                 </div>
                                 </Fade>
