@@ -20,7 +20,7 @@ class LandingPage extends Component {
         window.scrollTo(0, 0);
 
           if (!this.props.page.landingPage)
-            this.props.fetchPage(`https://cors-anywhere.herokuapp.com/${process.env.REACT_APP_HOST}/api/v1/member/landing-page`,
+            this.props.fetchPage(`/landing-page`,
           "landingPage"
             );
   }
